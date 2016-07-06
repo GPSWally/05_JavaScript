@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>The temp is <span id="output">500</span> degees F</p>
+	<script>
+
+		// console.log((parseFload(prompt("Temp in C"))+32 * (9/5));
+
+
+		var tempC = parseFloat(prompt("Enter a temp in degree C"));
+		var tempF = tempC*1.8 + 32;
+
+		console.log(tempC);
+
+		document.getElementById("output").innerHTML = tempF;
+		console.log(tempF);
+
+	</script>
+</body>
+</html>

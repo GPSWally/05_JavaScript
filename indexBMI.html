@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>My BMI is<div id="output">500</div></p>
+	
+	<script>
+		var weight = parseFloat(prompt ("Enter Weight in lbs."));
+		var feet = parseFloat(prompt ("Enter Height in feet"));
+		var inch = parseFloat(prompt ("Enter Height in inches"));
+		var bmi = (weight/2.2) / (((feet*12+inch)*2.54/100)*((feet*12+inch)*2.54/100));
+		document.getElementById("output").innerHTML = bmi;
+		console.log(bmi);
+	</script>
+
+</body>
+</html>

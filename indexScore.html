@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<head>
+<body>
+	<div>The avg score of the 5 score is <span id="output">1000</span>.</div>
+	<script>
+		
+		var score1 = parseFloat(prompt("Enter Score 1"));
+		var score2 = parseFloat(prompt("Enter Score 2"));
+		var score3 = parseFloat(prompt("Enter Score 3"));
+		var score4 = parseFloat(prompt("Enter Score 4"));
+		var score5 = parseFloat(prompt("Enter Score 5"));
+
+		var avgScore = (score1+score2+score3+score4+score5)/5
+
+		document.getElementById("output").innerHTML = avgScore;
+
+	</script>
+</body>
+</html>

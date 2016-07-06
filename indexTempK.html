@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>The temp is <span id="output">500</span> degees K</p>
+	<script>
+		var tempC = parseFloat(prompt("Enter a temp in degree C"));
+		var tempK = tempC + 273.15;
+
+		console.log(tempK);
+
+		document.getElementById("output").innerHTML = tempK;
+
+
+	</script>
+</body>
+</html>
